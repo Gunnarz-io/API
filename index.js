@@ -1,3 +1,4 @@
+require('dotenv').config()
 const WebSocket = require('ws')
 const server = require('http').createServer()
 const express = require('express')
